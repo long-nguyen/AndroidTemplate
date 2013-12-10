@@ -1,8 +1,6 @@
-package ref.src.logic;
+package com.company.template.common;
 import android.app.Application;
 import android.content.Context;
-import android.os.Handler;
-import android.os.Message;
 
 /*
  * Author: Long Nguyen Tien
@@ -41,13 +39,4 @@ public class TemplateApplication extends Application
 		_instance = this;
 	}
 	
-	/*
-	 * You can notify any activity by using this message
-	 */
-	public void notifyUpdateUI(int messageKind, Handler which)
-	{
-		Message message = new Message();
-		message.what=messageKind;
-		which.sendMessage(message);
-	}
 }
