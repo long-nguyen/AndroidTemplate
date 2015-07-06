@@ -10,4 +10,6 @@
 + Right click, choose "Convert to Smart Object"
 + Choose "Rasterize layer"
 8. Choose Rectangle Marquee Tool(M)
-9. Ch
+9. Drag an area which cover your image, then "Ctrl + C",
+10. Create new image, then "Ctrl + V"
+11. Save your image
